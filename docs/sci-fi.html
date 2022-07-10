@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Axis</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+       <header id="header" class="shadow bg-light">
+           <nav class="container navbar">
+               <a href="/index.html" class="nav-brand text-dark">
+                    Pixel Talk
+                </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="/index.html" class="nav-link">Home</a>
+                        <a href="/categories.html" class="nav-link">Reviews</a>
+                        <a href="/about.html" class="nav-link">About</a>
+                        <a href="/contact.html" class="nav-link">Contact</a>
+                        <a href="/subscribe.html" class="nav-link">Subscribe</a>
+                    </ul>
+                </div>
+
+                  <!-- collapse on toggle button click -->
+                  <div class="collapse">
+                      <ul class="navbar-nav">
+                            <div class="search-box">
+                                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                            </div>
+                            <a href="https://www.facebook.com/Anime-Axis-102988262483552" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/animeaxisnet" class="nav-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/animeaxisnet/" class="nav-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@animeaxis" class="nav-link"><i class="fab fa-tiktok"></i></a>
+                            
+                      </ul>
+                  </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+        <div class="headings text-center">
+                            
+
+            <div class="title">
+                <h2 class="text-title text-dark display-1">Search Posts...</h2>
+            
+            <input class="circle" id="searchbar" onkeyup="search_posts()" type="text"
+            name="search" placeholder="Search posts..">
+            </div>
+          
+        <!-- linking javascript -->
+        <script src="./searchlist.js"></script>
+<ol id="list" class="searchlist">
+            <!-- Blog Post Section -->
+                <section id="posts">
+                    <div class="container">
+                        <div class="grid">
+                            <!-- article -->
+                            <li class="posts"><div class="grid-item">
+                                    <article class="article">
+                                        <div class="card">
+                                            <div class="overflow-img">
+                                                <a href="#">
+                                                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8EbOC1gOG3eCQtIdkAPnuEQGQK6mNjChrtxMR7GG_rElkoXEE" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="card-body text-center px-1">
+                                                <a href="#" class="text-title display-1 text-dark">
+                                                    Stardew Valley soars in popularity!
+                                                </a>
+                                                <p class="secondary-title text-secondary display-3">
+                                                    <span><i class="far fa-clock text-primary"></i> 07/01/2022</span>
+                                                    
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div></li>
+                            <!-- .article -->
+                            <!-- article -->
+                            <li class="posts"><div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="https://cdn.vox-cdn.com/thumbor/7IY-0N34wTiJX6_-Yj3EuYYAKQE=/0x0:1328x880/1200x800/filters:focal(558x334:770x546)/cdn.vox-cdn.com/uploads/chorus_image/image/69350111/borderlands3.0.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                borderlands 3 reaches 1 million downloads.
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                                </div></li>
+ </ol>
+                            <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img3.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img4.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img5.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img6.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img7.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img8.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="#">
+                                                <img src="./assets/img9.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-body text-center px-1">
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                Looking for some feedback for this rejected track
+                                                technology
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-clock text-primary"></i> 07/02/2022</span>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         <!-- .article -->
+                        </div>
+
+                        
+                    </div>
+                </section>
+            <!-- .Blog Post Section -->
+            <form action="action_page.php">
+                <div class="container">
+                  <h2>Subscribe To My Newsletter</h2>
+                  <p>I promise not to spam <span class="heart">♥</span></p>
+                  <input type="text" placeholder="Name.." name="name" required>
+                  <input type="text" placeholder="Email address.." name="mail" required>
+                  <input  type="submit" value="Subscribe">
+                </div>
+              </form>
+            <!-- Swiper slider -->
+                <section class="slider">
+                    <div class="container">
+
+                        <!-- Slider main container -->
+                            <div class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img1.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                     <!-- Slides -->
+                                      <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img2.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                     <!-- Slides -->
+                                      <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img3.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                        <!-- Slides -->
+                                             <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="./assets/slider/img4.jpg" class="img-fluid" alt="">
+                                        </a>
+                                    </div>
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <a href="#">
+                                                <img src="./assets/slider/img5.jpg" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                            <!-- Slides -->
+                                            <div class="swiper-slide">
+                                                <a href="#">
+                                                    <img src="./assets/slider/img6.jpg" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                                <!-- Slides -->
+                                                <div class="swiper-slide">
+                                                    <a href="#">
+                                                        <img src="./assets/slider/img7.jpg" class="img-fluid" alt="">
+                                                    </a>
+                                                </div>
+                                                    <!-- Slides -->
+
+                                </div>
+                            </div>
+
+                    </div>
+                </section>
+             <!-- .Swiper slider -->
+
+       </main>
+    <!-- .Main Site -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">About Me</h2>
+
+                    <div class="secondary-title text-secondary">
+                         <p class="mt-2 ">
+                            Hi, I'm Chloe and I loveeeeee anime and video games. I made this website to publish anime news and my reviews for other otakus to enjoy. Everything I publish on this website is researched heavily and all reviews are 100% genuine and my own personal opinion. If you like video games check out my other site <a class="pink" href="pixeltalk.net">PixelTalk.net</a>
+                         </p>
+                         
+                         <address>
+                             <i class="fas fa-map-marker-alt text-primary"></i> 
+                             Ohio, USA
+                         </address>
+
+                         
+
+                         <div class="email">
+                             <i class="fas fa-envelope text-primary"></i> 
+                             animeaxisnet@gmail.com
+                         </div>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">Recent Posts</h2>
+
+                    <div class="feature-post">
+                        <div class="flex-item">
+                            <article class="article">
+                                <div class="d-flex">
+                                    <a href="/article/1.html">
+                                        <img src="/assets/img3.jpg" class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="/article/1.html" class="text-title display-2 text-dark">
+                                             Yu-Gi-Oh Creator Kazuki Takahashi Found Dead At 60
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i> 07/07/2022</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="flex-item">
+                         <article class="article">
+                             <div class="d-flex">
+                                 <a href="/article/2.html">
+                                     <img src="/assets/img4.webp" class="object-fit px-1" alt="">
+                                     <div class="px-1">
+                                         <a href="/article/2.html" class="text-title display-2 text-dark">
+                                             JoJo’s Bizarre Adventure: Stone Ocean Part 2 Trailer and Release Date 
+                                         </a>
+                                         <p class="secondary-title text-secondary display-3">
+                                              <span><i class="far fa-clock text-primary"></i> 07/07/2022</span>
+                                         </p>
+                                     </div>
+                                 </a>
+                             </div>
+                         </article>
+                          </div>
+                          <div class="flex-item">
+                             <article class="article">
+                                 <div class="d-flex">
+                                     <a href="/article/3.html">
+                                         <img src="/assets/img5.avif" class="object-fit px-1" alt="">
+                                         <div class="px-1">
+                                             <a href="/article/3.html" class="text-title display-2 text-dark">
+                                                 Solo Leveling Anime Adaption Announced for 2023
+                                             </a>
+                                             <p class="secondary-title text-secondary display-3">
+                                                  <span><i class="far fa-clock text-primary"></i> 07/07/2022</span>
+                                             </p>
+                                         </div>
+                                     </a>
+                                 </div>
+                             </article>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">Genres</h2>
+
+                    <div class="tags">
+                        <div class="d-flex flex-wrap">
+                            <a href="/index.html" class="nav-link btn bg-light">Shonen</a>
+                            <a href="/index.html" class="nav-link btn bg-light">Shoujo</a>
+                            <a href="/index.html" class="nav-link btn bg-light">Slice of Life</a>
+                            <a href="/index.html" class="nav-link btn bg-light">Sci-fi</a>
+                            <a href="/index.html" class="nav-link btn bg-light">Adventure</a>
+                            <a href="/index.html" class="nav-link btn bg-light">Isekai</a>
+                        </div>
+                    </div>
+
+                 <h2 class="footer-title secondary-title mt-2">Social</h2>
+
+                 <div class="tags social">
+                     <div class="d-flex flex-wrap">
+                        <a href="https://www.facebook.com/Anime-Axis-102988262483552" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/animeaxisnet" class="nav-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/animeaxisnet/" class="nav-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@animeaxis" class="nav-link"><i class="fab fa-tiktok"></i></a>
+                     </div>
+                 </div>
+
+            </div>
+            </div>
+
+            <!-- copyrights  -->
+            <div class="copyrights">
+                <p class="text-center text-secondary display-2">
+                     © 2022 <a href="#" class="text-primary">AnimeAxis</a> - All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- .footer -->
+
+
+    <!-- masonry libray for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+    <!-- swiper slider cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+    <!-- custom javascript main.js file -->
+    <script src="main.js"></script>
+</body>
+</html>
