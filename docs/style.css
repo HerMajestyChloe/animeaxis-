@@ -43,7 +43,7 @@ form {
     max-width: 370px ;
     max-height: 189px;
     display: block;
-  float: left;
+  float: none;
 }
   
   /* Style the input elements and the submit button */
